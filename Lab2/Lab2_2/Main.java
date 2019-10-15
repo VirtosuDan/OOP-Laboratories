@@ -15,7 +15,7 @@ public class Main {
         q1.push(52);
         q1.showElements();
 
-        System.out.println("\nElement that we want to delete is: "+q1.pop(0));
+        System.out.println("\nElement that we want to delete is: "+q1.pop());
 
         System.out.println("\nFinal Queue 1 is:");
         q1.showElements();
