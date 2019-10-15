@@ -30,8 +30,9 @@ public class Queue
         elementsNumber++;
     }
 
-    public int pop(int index)
+   public int pop()
     {
+        int index=0 ;
         if (elementsNumber == 0)
             return 0;
 
