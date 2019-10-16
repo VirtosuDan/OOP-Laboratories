@@ -32,16 +32,16 @@ public class Queue
 
    public int pop()
     {
-        int index=0 ;
+        int i=0 ;
         if (elementsNumber == 0)
             return 0;
 
         int value = queueArr[0];
 
-        while (index < elementsNumber - 1)
+        while (i < elementsNumber - 1)
         {
-            queueArr[index] = queueArr[index+1];
-            index++;
+            queueArr[i] = queueArr[i+1];
+            i++;
         }
         elementsNumber--;
         return value;
